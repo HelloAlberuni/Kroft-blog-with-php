@@ -4,5 +4,5 @@
 
 *See the demo (Admin Panel): * [Click here to see the demo](http://techartisans.net/azad/kroft-blog/admin)
 
-###### Admin username:admin
-###### Admin password:00000
+**Admin username:**admin
+**Admin password:**00000
