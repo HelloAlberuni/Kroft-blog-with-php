@@ -1,121 +1,186 @@
-*{margin:0;padding:0}
-p{margin-bottom:15px;}
+* {
+    margin:0;
+    padding:0
+}
+
+p {
+    margin-bottom:15px
+}
+
 input[type="text"] {
-padding: 5px;
+    padding:5px
 }
-img{max-width:100%;}
+
+img {
+    max-width:100%
+}
+
 input.short[type="text"] {
-width:200px;
+    width:200px
 }
+
 input.mid[type="text"] {
-width:350px;
+    width:350px
 }
+
 input.long[type="text"] {
-width:533px;
+    width:533px
 }
 
 input[type="submit"] {
-padding: 5px 10px;
-background: none;
-border: 1px solid #666;
-margin-top: 10px;
-color: #006FAF;
-cursor: pointer;
+    padding:5px 10px;
+    background:none;
+    border:1px solid #666;
+    margin-top:10px;
+    color:#006FAF;
+    cursor:pointer
 }
 
-.login_form{
-    width: 300px;
-    margin: 0 auto;
-    margin-top: 200px;
-    border: 1px solid #ddd;
-    padding: 25px;
+.login_form {
+    width:300px;
+    margin:0 auto;
+    margin-top:200px;
+    border:1px solid #ddd;
+    padding:25px
 }
+
 .login_form h2 {
-text-align: center;
-margin-bottom: 20px;
-color: #666;
-}
-.login_form table{}
-.login_form tr{}
-.login_form td{
-    width: 100%;
-}
-.login_form input[type="text"],.login_form input[type="password"]{
-    border: 1px solid #666;
-    padding: 5px;
-    margin-bottom: 10px;
-}
-.login_form input[type="submit"]{
-    border: 1px solid #666;
-    padding: 5px 25px;
-    margin-top: 15px;
-    text-align: center;
-	background: none;
+    text-align:center;
+    margin-bottom:20px;
+    color:#666
 }
 
-body{background:#ededed;font-family:"Times new roman"}
-.fix{overflow:hidden}
-
-.wrapper{
-    width: 900px;
-    background: #fff;
-    margin: 0 auto;
-    padding: 15px 30px;
-}
-.header{}
-.header h1{
-    border-bottom: 5px solid #27ae60;
-    line-height: 1.3em;
-    width: 100%;
-    margin-bottom: 20px;
-    text-align: center;
-    padding-bottom: 5px;
-    color: #27ae60;
-}
-.sidebar{
-    width: 200px;
-    float: left;
-}
-.single_sidebar{
-    margin-bottom: 20px;
-}
-.single_sidebar h2{
-    background: #27ae60;
-    color: #fff;
-    margin-bottom: 10px;
-    padding: 5px 15px;
-    font-size: 20px;
-}
-.single_sidebar ul{}
-.single_sidebar ul li{
-    line-height: 1.4em;
-}
-.single_sidebar ul li a{}
-.content{
-    width: 675px;
-    margin-left: 25px;
-    float: left;
-}
-.content h3{
-    border-bottom: 3px solid #1abc9c;
-    margin-bottom: 10px;
-}
-.content h2{
-    text-align: center;
-    color: #27ae60;
-    margin-top: 73px;
-    font-size: 50px;
+.login_form table {
 }
 
+.login_form tr {
+}
 
-.table_list{margin-top:20px}
-.table_list tr{}
-.table_list th{padding: 5px;
-text-align: center;color: #fff;background: #1abc9c;}
-.table_list td{padding: 5px;
-text-align: center}
+.login_form td {
+    width:100%
+}
 
-.table_list tr:nth-child(2n+1){background: #ededed;}
-.table_list tr:nth-child(2n){background: #ddd;}
-.error{color:red;font-weight:bold;}
-.success{color:green;font-weight:bold;}
+.login_form input[type="text"],.login_form input[type="password"] {
+    border:1px solid #666;
+    padding:5px;
+    margin-bottom:10px
+}
+
+.login_form input[type="submit"] {
+    border:1px solid #666;
+    padding:5px 25px;
+    margin-top:15px;
+    text-align:center;
+    background:none
+}
+
+body {
+    background:#ededed;
+    font-family:"Times new roman"
+}
+
+.fix {
+    overflow:hidden
+}
+
+.wrapper {
+    width:900px;
+    background:#fff;
+    margin:0 auto;
+    padding:15px 30px
+}
+
+.header {
+}
+
+.header h1 {
+    border-bottom:5px solid #27ae60;
+    line-height:1.3em;
+    width:100%;
+    margin-bottom:20px;
+    text-align:center;
+    padding-bottom:5px;
+    color:#27ae60
+}
+
+.sidebar {
+    width:200px;
+    float:left
+}
+
+.single_sidebar {
+    margin-bottom:20px
+}
+
+.single_sidebar h2 {
+    background:#27ae60;
+    color:#fff;
+    margin-bottom:10px;
+    padding:5px 15px;
+    font-size:20px
+}
+
+.single_sidebar ul {
+}
+
+.single_sidebar ul li {
+    line-height:1.4em
+}
+
+.single_sidebar ul li a {
+}
+
+.content {
+    width:675px;
+    margin-left:25px;
+    float:left
+}
+
+.content h3 {
+    border-bottom:3px solid #1abc9c;
+    margin-bottom:10px
+}
+
+.content h2 {
+    text-align:center;
+    color:#27ae60;
+    margin-top:73px;
+    font-size:50px
+}
+
+.table_list {
+    margin-top:20px
+}
+
+.table_list tr {
+}
+
+.table_list th {
+    padding:5px;
+    text-align:center;
+    color:#fff;
+    background:#1abc9c
+}
+
+.table_list td {
+    padding:5px;
+    text-align:center
+}
+
+.table_list tr:nth-child(2n+1) {
+    background:#ededed
+}
+
+.table_list tr:nth-child(2n) {
+    background:#ddd
+}
+
+.error {
+    color:red;
+    font-weight:700
+}
+
+.success {
+    color:green;
+    font-weight:700
+}
