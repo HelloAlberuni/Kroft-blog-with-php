@@ -3,7 +3,7 @@ p{margin-bottom:15px;}
 input[type="text"] {
 padding: 5px;
 }
-
+img{max-width:100%;}
 input.short[type="text"] {
 width:200px;
 }
