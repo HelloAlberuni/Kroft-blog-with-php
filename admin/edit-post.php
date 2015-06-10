@@ -13,9 +13,7 @@ if(!isset($_REQUEST['id'])){
 else {
 	$id = $_REQUEST['id'];
 }
-
 ?>
-
 
 <?php
 
@@ -62,8 +60,8 @@ if(isset($_POST['post_add'])) {
 		$new_post_details = $_POST['post_details'];
 		$new_cat_id = $_POST['cat_id'];
 		
-		$statement = $db->prepare("UPDATE tbl_post SET post_title=?,post_details=?,cat_id=?,tag_id=? WHERE post_id=$id");
-		$statement->execute(array($new_post_title,$new_post_details,$new_cat_id,$tag_ids));
+		$statement = $db->prepare("UPDATE tbl_post SET post_title=?,post_details=?,featured_image=?,cat_id=?,tag_id=? WHERE post_id=$id");
+		$statement->execute(array($new_post_title,$new_post_details,$new_name,$new_cat_id,$tag_ids));
 		
 		// $_POST['post_title'];
 		// $_POST['post_details'];
@@ -148,7 +146,7 @@ foreach($result as $row) {
 					<tr>
 					<td>
 						<p><b>New Image:</b></p>
-						<input type="file" name="new_f_image" /><br /> <br />
+						<input value="<?php echo $featured_image; ?>" type="file" name="new_f_image" /><br /> <br />
 					</td>
 					</tr>
 					
