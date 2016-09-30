@@ -88,4 +88,3 @@ include('config.php');
 				</ul>
 				<!-- ENDS Navigation -->
 			</div>
-			<!-- ENDS nav bar holder -->
