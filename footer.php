@@ -31,7 +31,6 @@
 				</p></center>
 			</div>
 		</div>
-		<!-- ENDS footer-bottom -->
 		
 	</body>
 </html>
