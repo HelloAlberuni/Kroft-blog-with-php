@@ -13,7 +13,7 @@
 		</div>
 		<!-- ENDS FOOTER -->
 		
-		<!-- footer-bottom -->
+
 		<div id="footer-bottom">
 			<div class="bottom-wrapper"> 
 				<center><p style="color:#fff">
